@@ -55,8 +55,14 @@ Link para o protótipo criado no Figma:
 
 ## 📸 Capturas de Tela
 
+<<<<<<< HEAD
 ![Foto site notebook](./imagens-readme/captura-notebook.png)
 ![Foto site mobile](./imagens-readme/captura-mobile.jpeg)
+=======
+![Foto site notebook](imagens-readme/captura-notebook.png)
+![Foto site mobile](imagens-readme/captura-mobile.jpeg)
+
+>>>>>>> e7e1af36e0d9109cdd709532b3018a824b197229
 
 ---
 
