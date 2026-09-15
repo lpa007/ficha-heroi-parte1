@@ -42,6 +42,7 @@ body {
     border: 1px solid var(--roxo-escuro);
     box-shadow: 0 0 15px rgba(124, 58, 237, 0.2);
     margin-bottom: 25px;
+    flex-wrap: wrap;
 }
 
 .perfil-heroi {
@@ -79,6 +80,7 @@ body {
 .menu-nav {
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;    
 }
 
 .menu-nav a {
@@ -383,6 +385,38 @@ h3 {
 }
 
 /*RESPONSIVIDADE*/
+
+/* CELULAR (Até 767px): Ajuste do Cabeçalho e Menu */
+@media (max-width: 767px) {
+    .cabeçalho-heroi {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding: 15px 10px;
+    }
+
+    .perfil-heroi {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .titulo-heroi h1 {
+        font-size: 1.5rem;
+    }
+
+    .menu-nav {
+        justify-content: center;
+        width: 100%;
+        gap: 8px;
+    }
+
+    .menu-nav a {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+        flex: 1 1 calc(50% - 10px); /* Cria uma grade 2x2 para os botões no celular */
+        justify-content: center;
+    }
+}
 
 /* TABLET (Mínimo 768px): Layout em 2 colunas */
 @media (min-width: 768px) {
