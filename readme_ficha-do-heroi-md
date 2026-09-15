@@ -1,0 +1,73 @@
+# 🛡️ Ficha de Personagem - Nymeria | Herdeira do Eclipse
+
+Este é meu projeto final desenvolvido durante o curso **Tecnologia Web - Engenharia da Computação (Front-End)**. Trata-se de um site que simula uma ficha de personagem de RPG com informações sobre a personagem, sua história, atributos, habilidades, conquistas e contato.
+
+
+---
+
+## 📌 Sobre o Projeto
+
+Este site foi criado com foco em aplicar os conhecimentos de **HTML**, **CSS**, **Flexbox**, **responsividade** e **publicação com GitHub Pages**.
+
+O projeto foi dividido em duas fases:
+- **Parte 1:** Estruturação HTML, protótipo no Figma  e desenvolvimento do CSS e responsividade
+
+O objetivo deste projeto é apresentar as informações detalhadas da personagem em formato de *dashboard* interativo para RPG/Guilda.
+
+
+---
+
+## 🧪 Atributos & Habilidades da Personagem
+
+A estrutura é dividida em quatro partes principais:
+- **Perfil & Biografia:** Apresentação da personagem, classe, nível, origem.
+- **Atributos & Habilidades:** Exibição das estatísticas com barras visuais e habilidades especiais.
+- **Inventário & Conquistas:** Grade de itens, relíquias com selos de raridade e marcos históricos.
+- **Contato com a Guilda:** Formulário interativo para envio de missões e convocação.
+- **Layout responsivo** (mobile e desktop)
+- **Animações** e efeitos visuais com CSS
+
+---
+
+## 🧰 Ficha Técnica & Tecnologias Utilizadas
+
+- HTML5
+- CSS3 + Flexbox
+- Google Fonts
+- Font Awesome
+- Git + GitHub
+- GitHub Pages (para publicação)
+
+---
+
+## 🎨 Protótipo (Figma ou Similar)
+
+Link para o protótipo criado no Figma:  
+[🔗 Ver protótipo] https://www.figma.com/design/qFdoTEkGAgr4qoPrWzgYmB/prototipo-ficha-do-heroi?node-id=5-22&m=dev&t=Ez24rul5HKhzLAye-1
+---
+
+## 🔗 Acesso ao Projeto
+
+- **GitHub Pages:** [Clique aqui para acessar o site](https://seuusuario.github.io/nome-do-repositorio/)
+- **Repositório GitHub:** [Acesse o código-fonte aqui](https://github.com/seuusuario/nome-do-repositorio)
+
+---
+
+## 📸 Capturas de Tela
+
+
+
+---
+
+## 📄 Licença
+
+Este projeto é de uso educacional, criado como parte da disciplina **Tecnologia Web**.
+
+---
+
+## 🙋‍♀️ Desenvolvido por
+
+** Luiza Pallin de Amorim 266066**  
+Turma: 2° semestre 2026 
+Email: lpamorim2007@outlook.com  
+GitHub: [https://github.com/seuusuario](https://github.com/seuusuario)

@@ -1,0 +1,192 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nymeria | Ficha do Herói</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Fonte Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO E ÁREA PRINCIPAL -->
+    <header class="cabeçalho-heroi">
+        <div class="perfil-heroi">
+            <img src="nymeria icon.jpeg" alt="Ícone de perfil da personagem Nymeria" class="icone-avatar">
+            <div class="titulo-heroi">
+                <h1>Nymeria</h1>
+                <p>Paladina <span class="nivel">nvl.20</span></p>
+            </div>
+        </div>
+        
+        <!-- MENU DE NAVEGAÇÃO -->
+        <nav class="menu-nav">
+            <a href="#sobre-heroi"><i class="fa-solid fa-scroll"></i> Sobre</a>
+            <a href="#atributos"><i class="fa-solid fa-shield-halved"></i> Atributos</a>
+            <a href="#inventario-conquistas"><i class="fa-solid fa-gem"></i> Inventário & Conquistas</a>
+            <a href="#contato"><i class="fa-solid fa-envelope"></i> Contato</a>
+        </nav>
+    </header> 
+
+   <main class="heroi-main">
+        <div class="hero-image-container">
+            <img src="nymeria.png" alt="Ilustração de corpo inteiro de Nymeria, a Herdeira do Eclipse" class="foto-heroi">
+        </div>
+        <div class="heroi-bio">
+            <p class="bio-resumo">
+                Nymeria é uma paladina de nível 20, princesa de Aurelia e Descendente do Deus Elyndor.
+            </p>
+            <blockquote class="frase-destaque">
+                "Eu não sou a luz. Eu não sou a escuridão. Sou aquilo que existe entre as duas."
+            </blockquote>
+        </div>
+    </main>
+
+    <hr class="divisor">
+
+    <!-- SEÇÃO 1: SOBRE O HERÓI -->
+    <section id="sobre-heroi" class="padrao-section">
+        <h2><i class="fa-solid fa-book-bookmark"></i> Sobre Nymeria</h2>
+        <p>Nymeria nasceu como princesa do reino de Aurelia na noite de um eclipse total, evento interpretado pelos sacerdotes como o cumprimento de uma antiga profecia. Na verdade, a família real guardava o segredo de um pacto ancestral: Nymeria carrega a essência de Elyndor, o Deus do Eclipse, uma divindade do equilíbrio entre a luz e as trevas.</p>
+
+        <p>Criada como guerreira e treinada pela Ordem da Aurora sob o lema de Proteção, Justiça e Esperança, seu destino se manifestou no dia em que uma criatura sombria atacou o reino em busca do sangue divino. Ao se colocar como escudo para proteger inocentes, Elyndor despertou através dela: asas negras surgiram em suas costas, sua armadura canalizou energia violeta e ela se tornou a Herdeira do Eclipse.</p>
+
+        <p>Agora, Nymeria precisa empunhar a espada Eclipsia e o escudo Aurora Negra para impedir o retorno do Rei do Vazio, uma entidade ancestral aprisionada por Elyndor que ameaça consumir a luz e destruir o mundo mortal. Em sua jornada, seu maior desafio interno é carregar o peso de uma essência divina sem perder a própria humanidade.</p>
+    </section>
+
+    <hr class="divisor">
+
+    <!-- SEÇÃO 2: ATRIBUTOS E HABILIDADES -->
+    <section id="atributos" class="padrao-section">
+        <h2><i class="fa-solid fa-chart-simple"></i> Atributos e Habilidades</h2>
+        
+        <div class="atributos-grid">
+              <div class="atributo-item">
+                <span class="nome-atributo">Força 20/20</span>
+                <div class="barra"><div class="preenchimento-barra" style="width: 100%;"></div></div>
+            </div>
+            <div class="atributo-item">
+                <span class="nome-atributo">Destreza 16/20</span>
+                <div class="barra"><div class="preenchimento-barra" style="width: 80%;"></div></div>
+            </div>
+            <div class="atributo-item">
+                <span class="nome-atributo">Constituição 18/20</span>
+                <div class="barra"><div class="preenchimento-barra" style="width: 90%;"></div></div>
+            </div>
+            <div class="atributo-item">
+                <span class="nome-atributo">Inteligência 20/20</span>
+                <div class="barra"><div class="preenchimento-barra" style="width: 100%;"></div></div>
+            </div>
+            <div class="atributo-item">
+                <span class="nome-atributo">Sabedoria 20/20</span>
+                <div class="barra"><div class="preenchimento-barra" style="width: 100%;"></div></div>
+            </div>
+            <div class="atributo-item">
+                <span class="nome-atributo">Carisma 17/20</span>
+                <div class="barra"><div class="preenchimento-barra" style="width: 85%;"></div></div>
+            </div>
+        </div>
+
+        <h3>Habilidades Especiais:</h3>
+        <ul class="habilidades-lista">
+            <li><i class="fa-solid fa-sun"></i> <strong>Golpe Divino:</strong> Causa dano adicional de luz a inimigos sombrios.</li>
+            <li><i class="fa-solid fa-wand-magic-sparkles"></i> <strong>Ascensão Divina:</strong> Manifestação temporária do poder total de Elyndor.</li>
+            <li><i class="fa-solid fa-feather-pointed"></i> <strong>Asas do Eclipse:</strong> Mobilidade e vôo celestial/sombrio.</li>
+        </ul>
+    </section>
+
+    <hr class="divisor">
+
+    <!-- SEÇÃO 3: INVENTÁRIO & CONQUISTAS (GRID) -->
+    <section id="inventario-conquistas" class="padrao-section">
+        <h2><i class="fa-solid fa-box-archive"></i> Inventário & Conquistas</h2>
+        
+        <h3>Inventário do Herói</h3>
+        <div class="inventario-grid">
+          
+            <div class="card-item">
+                <img src="card.espada.jpeg" alt="Espada Relíquia Eclipsia">
+                <h4>Espada Eclipsia</h4>
+                <p>Forjada no fogo cósmico. Canaliza a energia do eclipse para desferir golpes letais.</p>
+            </div>
+
+            <div class="card-item">
+                <img src="card.escudo.jpeg" alt="Escudo Aurora Negra">
+                <h4>Aurora Negra</h4>
+                <p>Escudo místico capaz de absorver feitiços e ataques de escuridão.</p>
+            </div>
+            <div class="card-item">
+                <img src="card.amuleto.jpeg" alt="Amuleto de Elyndor">
+                <h4>Amuleto de Elyndor</h4>
+                <p>Aumenta a regeneração de mana e traz proteção espiritual.</p>
+            </div>
+            <div class="card-item">
+                <img src="card.essencia.jpeg" alt="Essência do Eclipse">
+                <h4>Essência do Eclipse</h4>
+                <p>Material de alquimia raro contendo energia cósmica pura.</p>
+            </div>
+            <div class="card-item">
+                <img src="card.poçao.jpeg" alt="Poção de Cura Divina">
+                <h4>Poção de Cura</h4>
+                <p>Restaura vitalidade e remove efeitos de veneno sombrio.</p>
+            </div>
+
+             <!-- ITEM RARO -->
+            <div class="card-item destaque-raro">
+                   <span class="selo-raridade lendario">Lendário</span>
+                <img src="card.asas.jpeg" alt="Artefato Asas do Eclipse">
+                <h4>Asas do Eclipse</h4>
+                <p>Concede capacidade de vôo e esquiva aprimorada.</p>
+            </div>
+        </div>
+
+        <h3>Conquistas Notáveis</h3>
+        <ul class="conquistas-lista">
+            <li><i class="fa-solid fa-trophy"></i> Derrotou o Senhor das Sombras</li>
+            <li><i class="fa-solid fa-city"></i> Salvou a cidade de Aurelia de um ataque demoníaco</li>
+            <li><i class="fa-solid fa-key"></i> Recuperou o Selo do Eclipse</li>
+        </ul>
+    </section>
+
+    <hr class="divisor">
+
+    <!-- SEÇÃO 4: CONTATO COM A GUILDA -->
+    <section id="contato" class="padrao-section">
+        <h2><i class="fa-solid fa-guilded"></i> Contato com a Guilda</h2>
+        <p>Envie uma mensagem, solicite uma missão ou convoque a Herdeira do Eclipse para a batalha.</p>
+        
+        <form action=" " class="formulario">
+            <label for="nome">Nome do Aventureiro:</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: Sir Gareth" required>
+
+            <label for="classe">Classe / Título:</label>
+            <input type="text" id="classe" name="classe" placeholder="Ex: Mago de Batalha" required>
+
+            <label for="email">Pergaminho de Contato (E-mail):</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@guilda.com" required>
+
+            <label for="mensagem">Detalhes da Missão:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva a missão ou mensagem..." required></textarea>
+
+            <button type="submit" class="botao-envio">Enviar Mensagem à Guilda</button>
+        </form>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <div class="social-links">
+            <a href="https://discord.com" target="_blank" aria-label="Discord da Guilda"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://github.com" target="_blank" aria-label="GitHub do Desenvolvedor"><i class="fa-brands fa-github"></i></a>
+        <p> &copy; 2026 Ordem da Aurora - Todos os direitos reservados.</p>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html> 

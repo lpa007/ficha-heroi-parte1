@@ -1,0 +1,419 @@
+:root {
+    
+    --fundo-principal: #0F0C1B;        /* Fundo principal */
+    --fundo-cards: #181528;        /* Fundo dos cards */
+    --roxo-escuro: #2E1065;    /* Roxo escuro */
+    --roxo-principal: #7C3AED;    /* Roxo principal */
+    --brilho: #9D7CFF;     /* Brilho mágico */
+    --prata: #C0C0C0;         /* Prata */
+    --titulo: #E2E8F0;    /* Títulos */
+    --texto: #94A3B8;     /* Textos */
+    --destaques: #FFFFFF;      /* Destaques */
+
+  
+    --font-heading: 'Cinzel', serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--fundo-principal);
+    color: var(--texto);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO, MENU E NAVEGAÇÃO (FLEXBOX) */
+.cabeçalho-heroi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--fundo-cards);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--roxo-escuro);
+    box-shadow: 0 0 15px rgba(124, 58, 237, 0.2);
+    margin-bottom: 25px;
+}
+
+.perfil-heroi {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icone-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--brilho);
+    object-fit: cover;
+}
+
+.titulo-heroi h1 {
+    font-family: var(--font-heading);
+    color: var(--destaques);
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.titulo-heroi p {
+    color: var(--prata);
+    font-weight: 600;
+}
+
+.nivel {
+    color: var(--brilho);
+    font-weight: bold;
+}
+
+/* Menu de Navegação Flexbox */
+.menu-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-nav a {
+    color: var(--titulo);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: var(--roxo-escuro);
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-nav a:hover {
+    background-color: var(--roxo-principal);
+    color: var(--destaques);
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px var(--brilho);
+}
+
+/* ÁREA PRINCIPAL DO HERÓI (BANNER) */
+.heroi-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--fundo-cards);
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid var(--roxo-escuro);
+    margin-bottom: 30px;
+}
+
+.foto-heroi {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 12px;
+    border: 2px solid var(--roxo-principal);
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
+}
+
+.heroi-bio {
+    text-align: center;
+    max-width: 700px;
+}
+
+.bio-resumo {
+    font-size: 1.1rem;
+    color: var(--destaques);
+    margin-bottom: 15px;
+}
+
+.frase-destaque {
+    font-style: italic;
+    color: var(--brilho);
+    border-left: 3px solid var(--roxo-principal);
+    padding-left: 15px;
+    margin: 10px 0;
+}
+
+.divisor {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--roxo-principal), transparent);
+    margin: 30px 0;
+}
+
+/* SEÇÃO PADRÃO E ATRIBUTOS */
+.padrao-section {
+    background-color: var(--fundo-cards);
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(124, 58, 237, 0.3);
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: var(--font-heading);
+    color: var(--titulo);
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--roxo-escuro);
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h3 {
+    font-family: var(--font-heading);
+    color: var(--brilho);
+    margin: 20px 0 15px 0;
+}
+
+/* Grid de Atributos */
+.atributos-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.atributo-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nome-atributo {
+    color: var(--prata);
+    font-weight: 600;
+}
+
+/* Barra de Progresso */
+.barra {
+    width: 100%;
+    background-color: var(--fundo-principal);
+    height: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--roxo-escuro);
+}
+
+.preenchimento-barra {
+    height: 100%;
+    background: linear-gradient(90deg, var(--roxo-escuro), var(--roxo-principal), var(--brilho));
+    border-radius: 8px;
+    transition: width 1s ease-in-out;
+}
+
+.habilidades-lista, .conquistas-lista {
+    list-style: none;
+}
+
+.habilidades-lista li, .conquistas-lista li {
+    background-color: var(--fundo-principal);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border-left: 4px solid var(--roxo-principal);
+}
+    
+    /*INVENTÁRIO*/
+.inventario-grid {
+    display: grid;
+    /* Grid padrão (celular 1 coluna)*/
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card-item {
+    position: relative;
+    background-color: var(--fundo-principal);
+    border: 1px solid var(--roxo-escuro);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-item:hover {
+    transform: translateY(-5px) scale(1.02);
+    border-color: var(--brilho );
+    box-shadow: 0 5px 15px rgba(157, 124, 255, 0.3);
+}
+
+.card-item img {
+    width: 100%;
+    max-width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.card-item h4 {
+    color: var(--destaques);
+    margin-bottom: 8px;
+}
+
+.card-item p {
+    font-size: 0.85rem;
+    color: var(--text-color);
+}
+
+/* Item Raro */
+.destaque-raro {
+    border: 2px solid var(--brilho);
+    background: linear-gradient(180deg, var(--roxo-escuro) 0%, var(--fundo-principal) 100%);
+}
+
+/* Selo Decorativo */
+.destaque-raro::before {
+    content: " RELÍQUIA ";
+    position: absolute;
+    top: -10px;
+    background-color: var(--roxo-principal);
+    color: var(--brilho);
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.selo-raridade {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.selo-raridade.lendario {
+    background-color: #FFD700;
+    color: #000;
+}
+
+/* FORMULÁRIO DE CONTATO COM A GUILDA */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.formulario label {
+    color: var(--prata);
+    font-weight: 600;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--fundo-principal);
+    border: 1px solid var(--roxo-escuro);
+    border-radius: 6px;
+    color: var(--destaques);
+    font-family: var(--font-body);
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: var(--brilho);
+    box-shadow: 0 0 8px var(--roxo-principal);
+}
+
+.botao-envio {
+    background: linear-gradient(90deg, var(--roxo-escuro), var(--roxo-principal));
+    color: var(--destaques);
+    border: none;
+    padding: 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.botao-envio:hover {
+    background: linear-gradient(90deg, var(--roxo-principal), var(--brilho));
+    box-shadow: 0 0 15px var(--brilho);
+    transform: scale(1.01);
+}
+
+/* RODAPÉ */
+.rodape {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid var(--roxo-escuro);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: var(--prata);
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--brilho);
+}
+
+/*RESPONSIVIDADE*/
+
+/* TABLET (Mínimo 768px): Layout em 2 colunas */
+@media (min-width: 768px) {
+    .heroi-main {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .heroi-bio {
+        text-align: left;
+    }
+
+    .atributos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Inventário em 2 colunas no Tablet */
+    .inventario-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* NOTEBOOK (Mínimo 1024px): Layout em 3 colunas */
+@media (min-width: 1024px) {
+    /* Inventário em 3 colunas no notebook */
+    .inventario-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .rodape {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
