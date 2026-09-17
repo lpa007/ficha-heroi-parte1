@@ -53,14 +53,6 @@ Link para o protótipo criado no Figma:
 
 ---
 
-## 📸 Capturas de Tela
-
-
-![Foto site notebook](imagens-readme/captura-notebook.png)
-![Foto site mobile](imagens-readme/captura-mobile.jpeg)
-
-
----
 
 ## 📄 Licença
 
@@ -73,4 +65,4 @@ Este projeto é de uso educacional, criado como parte da disciplina **Tecnologia
 ** Luiza Pallin de Amorim 266066**  
 Turma: 2° semestre 2026 
 Email: lpamorim2007@outlook.com  
-GitHub: [https://github.com/seuusuario] https://github.com/lpa007
+GitHub:  https://github.com/lpa007
