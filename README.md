@@ -58,8 +58,8 @@ Link para o protótipo criado no Figma:
 
 ## 🔗 Acesso ao Projeto
 
-- **GitHub Pages:** [Clique aqui para acessar o site] 
-- **Repositório GitHub:** [Acesse o código-fonte aqui] 
+- **GitHub Pages:** [Clique aqui para acessar o site] https://lpa007.github.io/ficha-heroi-parte1/
+- **Repositório GitHub:** [Acesse o código-fonte aqui] https://github.com/lpa007/ficha-heroi-parte1
 
 ---
 
@@ -72,7 +72,7 @@ Este projeto é de uso educacional, criado como parte da disciplina **Tecnologia
 
 ## 🙋‍♀️ Desenvolvido por
 
-** Luiza Pallin de Amorim 266066**  
+**Luiza Pallin de Amorim 266066** 
 Turma: 2° semestre 2026 
 Email: lpamorim2007@outlook.com  
 GitHub:  https://github.com/lpa007
